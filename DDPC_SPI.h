@@ -39,9 +39,9 @@
 #include"Arduino.h"
 
 //
-#define DDPC_SPI_RST
-#define DDPC_SPI_DQ
-#define DDPC_SPI_CLK
+#define DDPC_SPI_RST 
+#define DDPC_SPI_DQ 
+#define DDPC_SPI_CLK 
 
 //
 #define MULTIPLEXER 256
@@ -65,11 +65,14 @@ void init(); //
   
   //
   private:
-  void PulseControl(); //
+void balance(); //
+void PulseControl(); //
+void Default_Potentiometer(); //
+bool CONTROL_LOGICT(); //
   
   //
   protected:
-  
+bool potentiometer(); //
 }
 
 extern DDPC_SPIClass;
