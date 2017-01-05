@@ -1,4 +1,5 @@
 /*
+Filename: DDPC_SPI.h
  * FEATURES
  * Ultra-lowpower consumption, quiet, pumpless design
  * Two digitally controlled, 256-position potentiometers
