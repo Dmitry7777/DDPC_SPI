@@ -63,11 +63,13 @@ void init(); //
   
   //
   private:
-  
+  uint8_t DDPC_SPI_RST
+  uint8_t DDPC_SPI_DQ
+  uint8_t DDPC_SPI_CLK
   //
   protected:
   
-  
+  virtual:
 }
 
 extern DDPC_SPI_class DDPC_SPI_RST;
