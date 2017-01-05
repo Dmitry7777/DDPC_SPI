@@ -43,6 +43,7 @@
 #define DDPC_SPI_CLK
 
 class DDPC_SPI{
+  DDPC_SPI(uint8_t DDPC_SPI_RST, uint8_t DDPC_SPI_DQ, uint8_t DDPC_SPI_CLK); //
   
   //
   public:
