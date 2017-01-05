@@ -52,7 +52,7 @@ class DDPC_SPI{
   private:
   
   //
-  protected
+  protected:
   
   
 }
