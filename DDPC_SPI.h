@@ -62,6 +62,8 @@ void write(); //
 void set(); //
 void clear(); //
 void init(); //
+bool setLeftInput(); //
+bool setRightInput(); //
   
   //
   private:
