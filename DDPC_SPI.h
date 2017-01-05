@@ -52,10 +52,10 @@
 #define STACK_MULTIPLEXER
 
 class DDPC_SPI{
-  DDPC_SPI(uint8_t DDPC_SPI_RST, uint8_t DDPC_SPI_DQ, uint8_t DDPC_SPI_CLK); //
-  
+
   //
   public:
+DDPC_SPI(uint8_t DDPC_SPI_RST, uint8_t DDPC_SPI_DQ, uint8_t DDPC_SPI_CLK); //
 void begin(); //
 void end(); //
 void write(); //
