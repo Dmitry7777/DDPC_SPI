@@ -42,6 +42,14 @@
 #define DDPC_SPI_DQ
 #define DDPC_SPI_CLK
 
+//
+#define 256_MULTIPLEXER
+#define WIPER_0_8_BITS
+#define WIPER_1_8_BITS
+#define CONTROL_LOGIC
+#define 17_BIT_IO_SHIFT_REGISTER
+#define STACK_MULTIPLEXER
+
 class DDPC_SPI{
   DDPC_SPI(uint8_t DDPC_SPI_RST, uint8_t DDPC_SPI_DQ, uint8_t DDPC_SPI_CLK); //
   
