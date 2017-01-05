@@ -41,3 +41,19 @@
 #define DDPC_SPI_RST
 #define DDPC_SPI_DQ
 #define DDPC_SPI_CLK
+
+class DDPC_SPI{
+  
+  //
+  public:
+  
+  //
+  private:
+  
+  //
+  protected
+  
+  
+}
+
+#ifend;
