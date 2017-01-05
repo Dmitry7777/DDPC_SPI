@@ -1,13 +1,13 @@
 /*
-Filename: DDPC_SPI.h
- * FEATURES
+ * Filename: DDPC_SPI.h
+ * FEATURES:
  * Ultra-lowpower consumption, quiet, pumpless design
  * Two digitally controlled, 256-position potentiometers
  * Serial port provides means for setting and reading both potentiometers
  * Resistors can be connected in series to provide increased total resistance
  * 20-pin TSSOP, 16-pin SOIC, and 14-pin DIP packages are available.
  * Resistive elements are temperature compensated to ±0.3 LSB relative linearity
- * Standard resistance values: - DS1868-10 ∼10 kΩ - DS1868-50 ∼50 kΩ - DS1868-100 ∼100 kΩ
+ * Standard resistance values: - DS1868-10 ?10 k? - DS1868-50 ?50 k? - DS1868-100 ?100 k?
  * +5V or ±3V operation
  * Operating Temperature Range: - Industrial: -40°C to 85°C
  * 
@@ -34,9 +34,9 @@ Filename: DDPC_SPI.h
 
 //
 #include<DDPC_SPI.h.>
-#include<Arduino.h.>
-#include"DDPC_SPI.h."
-#include"Arduino.h."
+#include<Arduino.h>
+#include"DDPC_SPI.h"
+#include"Arduino.h"
 
 //
 #define DDPC_SPI_RST
@@ -56,6 +56,10 @@ class DDPC_SPI{
   
   //
   public:
+void begin(); //
+void end(); //
+void write(); //
+void init(); //
   
   //
   private:
@@ -65,5 +69,9 @@ class DDPC_SPI{
   
   
 }
+
+extern DDPC_SPI_class DDPC_SPI_RST;
+extern DDPC_SPI_class DDPC_SPI_DQ;
+extern DDPC_SPI_class DDPC_SPI_CLK;
 
 #endif;
